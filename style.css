@@ -1,0 +1,117 @@
+body{
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.header, ul, .desc, .subheader, .image_row, .image_with_text, .testimonial, .contact_us{
+    display: flex;
+}
+
+.header, .subheader{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header{
+    
+    justify-content: space-around;
+
+    margin-top: 8px;
+    padding: 16px;
+
+    
+}
+
+ul{
+    
+    justify-content: right;
+    gap: 32px;
+}
+
+.desc{
+    
+    flex-direction: column;
+    width: 400px;
+}
+
+.subheader{
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.image_row{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    padding: 32px;
+    width: 800px;
+    margin: auto;
+
+    
+}
+
+.s2_title{
+    text-align: center;
+}
+
+.image_with_text{
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+.testimonial{
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 32px;
+    width: 900px;
+    margin: auto;
+    
+}
+
+.s3{
+    background-color: #e5e7eb;
+}
+
+em{
+    font-size: 32px;
+}
+
+
+.speaker{
+    text-align: right;
+    margin-right: 225px;
+}
+
+.last_section{
+    margin-top: 32px;
+}
+.contact_us{
+    background-color: #3882f6;
+    padding: 16px;
+    width: 600px;
+    
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+}
