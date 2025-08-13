@@ -1,11 +1,14 @@
+*{
+    
+}
 
 @font-face {
-    font-family: "Roboto";
-    src: url(./fonts/Roboto-Medium.ttf);
+    font-family: "Neue Haas";
+    src: url(./fonts/NeueHaasGrotDisp-45Light-Trial.otf);
 }
 
 body{
-    font-family: "Roboto";
+    font-family: "Neue Haas";
     text-align: left;
     margin: 0;
 }
@@ -15,12 +18,11 @@ body{
 }
 
 .header, .subheader{
-    background-color: #1f2937;
-    color: white;
+    background-color: #344e41;
+    color: #f0ebd8;
 }
 
 .header{
-    
     justify-content: space-around;
     align-items: center;
     padding: 16px;
@@ -37,27 +39,39 @@ body{
 ul{
     
     justify-content: right;
-    gap: 40px;
+    gap: 20px;
 }
 
 .desc{
-    
-    flex-direction: column;
-    width: 620px;
+    width: 1600px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.desc_text{
+    width: 800px;
 }
 
 .subheader{
-    justify-content: space-around;
-    align-items: center;
-    height: 450px;
+    justify-content: space-between;
     
+    height: 450px;
 }
 
 
 #main_image{
     width: 540px;
     height: auto;
-    outline: 2px solid white;
+    outline: 2px solid #f0ebd8;
+}
+
+#helper{
+    height: 60px;
+    width: 150px;
+}
+
+#helper:hover{
+    opacity: 0.8;
 }
 
 .image_row{
@@ -65,9 +79,9 @@ ul{
     align-items: center;
     text-align: center;
 
-    padding: 32px;
-    width: 800px;
+    width: 1600px;
     height: 300px;
+
     margin: auto;
 
     
@@ -75,33 +89,37 @@ ul{
 .s2{
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 1100px;
+    background-color: #dad7cd;
 }
+
 .s2_title{
     text-align: center;
-    width: 600px;
     margin: auto;
 
     font-weight: 900;
-    color:#1f2937;
+    color: #344e41;
 }
 
 .image_with_text{
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 300px;
 }
 
-.info_images{
-    width: 200px;
+.image_with_text img{
+    width: 400px;
     height: auto;
-    border: 2px solid #3882f6;
+    border: 2px solid #344e41;
     
 }
 
 .testimonial{
     flex-direction: column;
     justify-content: center;
+
+    text-align: right;
+    color: #344e41;
     
     padding: 32px;
     width: 900px;
@@ -111,26 +129,26 @@ ul{
 }
 
 .s3{
-    background-color: #e5e7eb;
+    background-color: #a3b18a;
 }
 
 em{
     font-size: 32px;
 }
 
-
-.speaker{
-    text-align: right;
-    margin-right: 225px;
+.testimonial h2{
+    font-style: italic;
 }
 
 .last_section{
-    margin-top: 64px;
-    height: 200px;
+    height: 300px;
+    background-color: #dad7cd;
+    display: flex;
+    align-items: center;
     
 }
 .contact_us{
-    background-color: #3882f6;
+    background-color: #344e41;
     color: white;
     width: 800px;
     height: 100px;
@@ -159,34 +177,31 @@ h2{
 
 h3{
     font-size: 24px;
-    color: #f9faf8;
+    color: white;
 
 }
 
 .pt18{
-    font-size: 18px;
-    color: #e5e7eb;
+    font-size: 20px;
+    color: white;
     font-weight: lighter;
 }
 
-.quote{
-    font-style: italic;
-}
 
 button{
-    font-family: "Roboto";
+    font-family: "Neue Haas";
     font-size: 18px;
-    background-color: #3882f6;
+    background-color: #344e41;
     color: white;
 
     width: 125px;
     height: 35px;
-}
-
-.bottom_signup{
     outline: 2px solid white;
+    border-radius: 5px;
 }
 
-button, .info_images, .contact_us, #main_image{
-    border-radius: 5px;
+
+
+.contact_us, #main_image, .image_with_text img{
+    border-radius: 20px;
 }
