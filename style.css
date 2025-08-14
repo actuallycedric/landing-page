@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Neue Haas";
-    src: url(./fonts/NeueHaasGrotDisp-45Light-Trial.otf);
+    font-family: "Free Sans";
+    src: url(./fonts/FreeSans.otf);
 }
 
 body{
-    font-family: "Neue Haas";
+    font-family: "Free Sans";
     text-align: left;
     margin: 0;
     background-color: #344e41;
@@ -41,11 +41,7 @@ body{
 }
 
 
-
-
-
 ul{
-    
     justify-content: right;
     gap: 20px;
 }
@@ -62,7 +58,6 @@ ul{
 
 .subheader{
     justify-content: space-between;
-    
     height: 450px;
 }
 
@@ -75,7 +70,7 @@ ul{
 
 #helper{
     height: 60px;
-    width: 150px;
+    width: 200px;
 }
 
 #helper:hover{
@@ -95,7 +90,7 @@ ul{
 .s2{
     display: flex;
     flex-direction: column;
-    height: 1100px;
+    height: 900px;
     background-color: #dad7cd;
 }
 
@@ -169,6 +164,9 @@ em{
 .contact_text{
     display: flex;
     flex-direction: column;
+
+
+    width: 600px;
 }
 
 h1{
@@ -195,7 +193,7 @@ h3{
 
 
 button{
-    font-family: "Neue Haas";
+    font-family: "Free Sans";
     font-size: 18px;
     background-color: #344e41;
     color: white;
@@ -210,4 +208,17 @@ button{
 
 .contact_us, #main_image, .image_with_text img{
     border-radius: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    color: white;
+}
+
+.copyright h3, .copyright h4{
+    font-weight: lighter;
 }
