@@ -119,18 +119,20 @@ ul{
     flex-direction: column;
     justify-content: center;
 
-    text-align: right;
+    text-align: left;
     color: #344e41;
     
-    padding: 32px;
-    width: 900px;
-    height: 400px;
+    
+    width: 964px;
+    height: 200px;
     margin: auto;
     
 }
 
 .s3{
+    display: flex;
     background-color: #a3b18a;
+    height: 300px;
 }
 
 em{
@@ -139,6 +141,7 @@ em{
 
 .testimonial h2{
     font-style: italic;
+    
 }
 
 .last_section{
